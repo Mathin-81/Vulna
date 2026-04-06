@@ -60,7 +60,7 @@ async function analyzeCodeWithAI(fileName, codeContent) {
   `;
 
     const payload = { model: modelName, prompt, stream: false };
-    const geminiKey = process.env.GEMINI_API_KEY || 'AIzaSyCdO0P2bTIZ_Hu1s9GCdHVLSW5DOSGsopY';
+    
 
     const headers = {
         "Authorization": `Bearer ${process.env.GROQ_API_KEY || geminiKey}`,
