@@ -1,0 +1,38 @@
+﻿
+> ai-vulnerability-scanner@1.0.0 dev
+> concurrently "npm run start:frontend" "npm run start:backend"
+
+[0] 
+[0] > ai-vulnerability-scanner@1.0.0 start:frontend
+[0] > npm run dev --prefix frontend
+[0] 
+[1] 
+[1] > ai-vulnerability-scanner@1.0.0 start:backend
+[1] > cd backend && .\venv\Scripts\python.exe -m uvicorn main:app --reload --port 8000
+[1] 
+[1] INFO:     Will watch for changes in these directories: ['C:\\Users\\hrato\\OneDrive\\Desktop\\KURU\\backend']
+[1] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[1] INFO:     Started reloader process [17500] using StatReload
+[0] 
+[0] > vulnerability-scanner@0.0.0 dev
+[0] > vite
+[0] 
+[0] Port 5173 is in use, trying another one...
+[0] Port 5174 is in use, trying another one...
+[0] 
+[0]   [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1401[22m[2m[0m ms[22m
+[0] 
+[0]   [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5175[22m/[39m
+[0] [2m  [32mΓ₧£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[1] C:\Users\hrato\OneDrive\Desktop\KURU\backend\ai_service.py:3: FutureWarning: 
+[1] 
+[1] All support for the `google.generativeai` package has ended. It will no longer be receiving 
+[1] updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+[1] See README for more details:
+[1] 
+[1] https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+[1] 
+[1]   import google.generativeai as genai
+[1] INFO:     Started server process [32976]
+[1] INFO:     Waiting for application startup.
+[1] INFO:     Application startup complete.
